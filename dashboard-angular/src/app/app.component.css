@@ -1,0 +1,9 @@
+.btn-wrapper {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-wrapper button {
+    width: 100%;
+    max-width: 310px;
+}

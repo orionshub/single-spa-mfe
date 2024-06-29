@@ -1,0 +1,12 @@
+<div class="dashboard-wrapper">
+  <!-- load react application using parcel -->
+  <parcel
+    [config]="reactParcelConfig"
+    [mountParcel]="mountParcel"
+    wrapWith="div"
+  />
+
+  <div class="btn-wrapper">
+    <button class="btn btn-outline-info" (click)="resetCounter()">Reset count to 0</button>
+  </div>
+</div>

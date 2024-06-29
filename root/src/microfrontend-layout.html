@@ -1,0 +1,16 @@
+<single-spa-router>
+  <header>
+    <application name="@orionshub/react-header"></application>
+  </header>
+  <main class="main-wrapper">
+    <redirect from="/" to="dashboard"></redirect>
+
+    <route path="dashboard">
+      <application name="@orionshub/dashboard"></application>
+    </route>
+
+    <route default>
+      <div class="not-found">Please go to <code><a href="/dashboard">/dashboard</a></code></div>
+    </route>
+  </main>
+</single-spa-router>
